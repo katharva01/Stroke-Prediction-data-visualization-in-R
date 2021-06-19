@@ -9,10 +9,10 @@ library(gridExtra)
 
 #setting working directory
 getwd()
-setwd("C:/Users/Nikhil Kulkarni")
+setwd("~/")
 
 #read and import dataset
-dta=read.csv("desktop/python coursera/R programming/stroke prediction/healthcare-dataset-stroke-data.csv",header = TRUE,sep=",",as.is=F)
+dta=read.csv("/healthcare-dataset-stroke-data.csv",header = TRUE,sep=",",as.is=F)
 
 #display first 5 entries
 head(dta,5)
